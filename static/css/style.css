@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+html{
+    font-size:14px;
+}
+body{
+    font-family:'Noto Sans','sans-serif';
+}
+a {
+    text-decoration:none;
+}
+.carousel-item img{
+   object-fit:cover;
+   object-position:top;
+   height: 80vh;
+   overflow: hidden;
+}
+
+.old_price{
+    font-weight:bold;
+    color:red;
+}
+
+.new_price{
+    font-weight:bold;
+    color:white;
+    background-color:green
+}
+
+.pic-box{
+    position:relative;
+
+}
+
+
+.hot{
+   background-color: orangered;
+   color:white;
+   font-weight:bold;
+   display:inline;
+   border-radius:5px;
+   padding:5px;
+   width:50px;
+   text-align:center;
+   position:absolute;
+   top:0;
+   right:20px;
+   z-index:10;
+
+}
